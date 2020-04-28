@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{b38ebc53-7e00-4b38-acc8-0a33a70079bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene\demo">
+      <UniqueIdentifier>{15537714-04a8-468e-9cfe-b3bbdd98ae65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object">
+      <UniqueIdentifier>{0b49cf6e-1427-4e4e-bfe2-7d4e306b8c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\render">
+      <UniqueIdentifier>{d2dcf704-2c6f-4c52-a116-23b5bc53e8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\render">
+      <UniqueIdentifier>{dc983b30-29ce-4125-8202-6fe658a6d1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object">
+      <UniqueIdentifier>{1d0e6204-f2c4-47db-8b5f-07e7904460e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene">
+      <UniqueIdentifier>{90683926-eeb2-4301-8269-70dabdf29906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene\demo">
+      <UniqueIdentifier>{446ec790-33aa-4eff-866f-6fe4c020de63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shader">
+      <UniqueIdentifier>{9a861a53-960c-433b-a07e-553a758a7c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shader\displacemapping">
+      <UniqueIdentifier>{13c1f5a8-bbd5-42e5-8c03-697fac953ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shader\filter">
+      <UniqueIdentifier>{cd8bbfe7-4bb0-431e-b662-397be11afb62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shader\header">
+      <UniqueIdentifier>{ec737ecb-e46d-406c-8885-86248cf478c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shader\light">
+      <UniqueIdentifier>{258232da-ec02-4435-8588-2fb4f441e7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shader\shadow">
+      <UniqueIdentifier>{112e97e0-57c2-4fdb-8e65-a8346643462f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shader\sea">
+      <UniqueIdentifier>{fe9a9eab-7751-4985-b4fb-6ef3c9cde831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shader\water">
+      <UniqueIdentifier>{4fa2e1dc-93a2-48d7-86cc-eda1ae0dd02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shader\texture">
+      <UniqueIdentifier>{14596db4-b614-40e6-9fab-73578633e5ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\precompile.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\object_skybox.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\object_water.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\object_floor.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\object_sea.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\render\renderingConfig.cpp">
+      <Filter>ソース ファイル\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\demo\scene_water.cpp">
+      <Filter>ソース ファイル\scene\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\demo\demo_scene_base.cpp">
+      <Filter>ソース ファイル\scene\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\demo\demo_scene_manager.cpp">
+      <Filter>ソース ファイル\scene\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\demo\scene_light.cpp">
+      <Filter>ソース ファイル\scene\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\demo\scene_sea.cpp">
+      <Filter>ソース ファイル\scene\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\scene_demo.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\app_main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\precompile.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\object_floor.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\object_sea.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\object_skybox.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\object_water.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\render\renderingConfig.h">
+      <Filter>ヘッダー ファイル\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\demo\scene_water.h">
+      <Filter>ヘッダー ファイル\scene\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\demo\demo_scene_base.h">
+      <Filter>ヘッダー ファイル\scene\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\demo\demo_scene_manager.h">
+      <Filter>ヘッダー ファイル\scene\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\demo\scene_cube_shadow_map.h">
+      <Filter>ヘッダー ファイル\scene\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\demo\scene_light.h">
+      <Filter>ヘッダー ファイル\scene\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\demo\scene_sea.h">
+      <Filter>ヘッダー ファイル\scene\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\demo\scene_sea2.h">
+      <Filter>ヘッダー ファイル\scene\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\demo\scene_toon.h">
+      <Filter>ヘッダー ファイル\scene\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\app_manager_scene.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\scene_demo.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\app_main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\asset\shader\header\blur.h">
+      <Filter>ソース ファイル\shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\asset\shader\header\constant_buffer.h">
+      <Filter>ソース ファイル\shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\asset\shader\header\ibl.h">
+      <Filter>ソース ファイル\shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\asset\shader\header\pbr.h">
+      <Filter>ソース ファイル\shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\asset\shader\header\shader.h">
+      <Filter>ソース ファイル\shader\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\asset\shader\psDisplacementMap.fx">
+      <Filter>ソース ファイル\shader\displacemapping</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\dsDisplacementMap.fx">
+      <Filter>ソース ファイル\shader\displacemapping</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\hsDisplacementMap.fx">
+      <Filter>ソース ファイル\shader\displacemapping</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsDisplacementMap.fx">
+      <Filter>ソース ファイル\shader\displacemapping</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psFilterGlare.fx">
+      <Filter>ソース ファイル\shader\filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psFilterGlare_Glare.fx">
+      <Filter>ソース ファイル\shader\filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psFilterGlare_Luminance.fx">
+      <Filter>ソース ファイル\shader\filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psGaussianBlur_H.fx">
+      <Filter>ソース ファイル\shader\filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psGaussianBlur_V.fx">
+      <Filter>ソース ファイル\shader\filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psThinFilm.fx">
+      <Filter>ソース ファイル\shader\filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psToneMap.fx">
+      <Filter>ソース ファイル\shader\filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psToon.fx">
+      <Filter>ソース ファイル\shader\filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psLightDirectional.fx">
+      <Filter>ソース ファイル\shader\light</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psLightPBR.fx">
+      <Filter>ソース ファイル\shader\light</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psLightPoint.fx">
+      <Filter>ソース ファイル\shader\light</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psLight.fx">
+      <Filter>ソース ファイル\shader\light</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psSea3.fx">
+      <Filter>ソース ファイル\shader\sea</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psSeaNormal.fx">
+      <Filter>ソース ファイル\shader\sea</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psSeaWave.fx">
+      <Filter>ソース ファイル\shader\sea</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psSea.fx">
+      <Filter>ソース ファイル\shader\sea</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psSea2.fx">
+      <Filter>ソース ファイル\shader\sea</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\dsSea.fx">
+      <Filter>ソース ファイル\shader\sea</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\hsSea.fx">
+      <Filter>ソース ファイル\shader\sea</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsSea2.fx">
+      <Filter>ソース ファイル\shader\sea</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsSea3.fx">
+      <Filter>ソース ファイル\shader\sea</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsSea.fx">
+      <Filter>ソース ファイル\shader\sea</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\gsShadowCubeMapDepth.fx">
+      <Filter>ソース ファイル\shader\shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psShadowCubeMapDepth.fx">
+      <Filter>ソース ファイル\shader\shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psShadowCubeMap.fx">
+      <Filter>ソース ファイル\shader\shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\dsWater.fx">
+      <Filter>ソース ファイル\shader\water</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsWater.fx">
+      <Filter>ソース ファイル\shader\water</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\hsWater.fx">
+      <Filter>ソース ファイル\shader\water</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psWater.fx">
+      <Filter>ソース ファイル\shader\water</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsShadowMap.fx">
+      <Filter>ソース ファイル\shader\shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsShadowDepth.fx">
+      <Filter>ソース ファイル\shader\shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsShadowCubeMapDepth.fx">
+      <Filter>ソース ファイル\shader\shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psShadowRound.fx">
+      <Filter>ソース ファイル\shader\shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsShadowCubeMap.fx">
+      <Filter>ソース ファイル\shader\shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psShadowMap.fx">
+      <Filter>ソース ファイル\shader\shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsTextureSpherical.fx">
+      <Filter>ソース ファイル\shader\texture</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsTexture2D.fx">
+      <Filter>ソース ファイル\shader\texture</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psTextureBlend.fx">
+      <Filter>ソース ファイル\shader\texture</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psTexture3D.fx">
+      <Filter>ソース ファイル\shader\texture</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psTexture2D.fx">
+      <Filter>ソース ファイル\shader\texture</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psTexture_Clamp.fx">
+      <Filter>ソース ファイル\shader\texture</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psCubeMap.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psEdge.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psFog.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psModel.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psReflectionMap.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psSSS.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\psStandard.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsAnimationModel.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsEdge.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsPrim2D.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsSSS.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\asset\shader\vsStandard.fx">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

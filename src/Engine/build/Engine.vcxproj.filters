@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\precompile.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\asset\asset_manager.cpp">
+      <Filter>ソースファイル\asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\asset\asset_model.cpp">
+      <Filter>ソースファイル\asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\asset\asset_model_fbx.cpp">
+      <Filter>ソースファイル\asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\asset\asset_model_manager.cpp">
+      <Filter>ソースファイル\asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\asset\asset_texture_manager.cpp">
+      <Filter>ソースファイル\asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\camera\camera.cpp">
+      <Filter>ソースファイル\object\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\light\light_base.cpp">
+      <Filter>ソースファイル\object\light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\input\input_keyboard.cpp">
+      <Filter>ソースファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math\math_vector.cpp">
+      <Filter>ソースファイル\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math\math_matrix_util.cpp">
+      <Filter>ソースファイル\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math\math_color.cpp">
+      <Filter>ソースファイル\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\file\file_watcher.cpp">
+      <Filter>ソースファイル\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\filter\filter_glare.cpp">
+      <Filter>ソースファイル\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\filter\filter_tone_mapping.cpp">
+      <Filter>ソースファイル\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpu\gpu_buffer.cpp">
+      <Filter>ソースファイル\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpu\gpu_command.cpp">
+      <Filter>ソースファイル\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpu\gpu_inputLayout.cpp">
+      <Filter>ソースファイル\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpu\gpu_shader.cpp">
+      <Filter>ソースファイル\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpu\gpu_texture.cpp">
+      <Filter>ソースファイル\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\model\model.cpp">
+      <Filter>ソースファイル\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\model\model_fbx.cpp">
+      <Filter>ソースファイル\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\model\model_mqo.cpp">
+      <Filter>ソースファイル\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\model\model_obj.cpp">
+      <Filter>ソースファイル\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\object_base.cpp">
+      <Filter>ソースファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\draw\draw_functions.cpp">
+      <Filter>ソースファイル\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\draw\primitive.cpp">
+      <Filter>ソースファイル\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\manager\manager_filter.cpp">
+      <Filter>ソースファイル\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\manager\manager_light.cpp">
+      <Filter>ソースファイル\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\manager\manager_scene.cpp">
+      <Filter>ソースファイル\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\manager\manager_shader.cpp">
+      <Filter>ソースファイル\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\manager\manager_task.cpp">
+      <Filter>ソースファイル\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\manager\manager_camera.cpp">
+      <Filter>ソースファイル\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\light\light_directional.cpp">
+      <Filter>ソースファイル\object\light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\light\light_point.cpp">
+      <Filter>ソースファイル\object\light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\light\light_spot.cpp">
+      <Filter>ソースファイル\object\light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\camera\camera_fps.cpp">
+      <Filter>ソースファイル\object\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\camera\camera_tps.cpp">
+      <Filter>ソースファイル\object\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\render\ibl.cpp">
+      <Filter>ソースファイル\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\render\shadow_map.cpp">
+      <Filter>ソースファイル\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\render\toon.cpp">
+      <Filter>ソースファイル\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\object\object_base_model.cpp">
+      <Filter>ソースファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenSource\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenSource\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenSource\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenSource\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenSource\imgui\examples\imgui_impl_win32.cpp">
+      <Filter>imgui\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenSource\imgui\examples\imgui_impl_dx11.cpp">
+      <Filter>imgui\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenSource\OpenFBX\src\ofbx.cpp">
+      <Filter>OpenFBX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenSource\OpenFBX\src\miniz.cpp">
+      <Filter>OpenFBX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\collision\collision_2D.cpp">
+      <Filter>ソースファイル\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\collision\collision_3D.cpp">
+      <Filter>ソースファイル\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\collision\shape\shape_3D.cpp">
+      <Filter>ソースファイル\collision\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\collision\shape\shape_2D.cpp">
+      <Filter>ソースファイル\collision\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\system\system_render.cpp">
+      <Filter>ソースファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\system\directX.cpp">
+      <Filter>ソースファイル\system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\scene\scene_base.h">
+      <Filter>ヘッダーファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\model.h">
+      <Filter>ヘッダーファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\model_fbx.h">
+      <Filter>ヘッダーファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\model_mqo.h">
+      <Filter>ヘッダーファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\model_obj.h">
+      <Filter>ヘッダーファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\math_color.h">
+      <Filter>ヘッダーファイル\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\math_common.h">
+      <Filter>ヘッダーファイル\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\math_matrix.h">
+      <Filter>ヘッダーファイル\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\math_matrix_util.h">
+      <Filter>ヘッダーファイル\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\math_vector.h">
+      <Filter>ヘッダーファイル\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\manager\manager_task.h">
+      <Filter>ヘッダーファイル\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\manager\manager_shader.h">
+      <Filter>ヘッダーファイル\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\manager\manager_scene.h">
+      <Filter>ヘッダーファイル\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\manager\manager_light.h">
+      <Filter>ヘッダーファイル\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\manager\manager_filter.h">
+      <Filter>ヘッダーファイル\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\manager\manager_collision.h">
+      <Filter>ヘッダーファイル\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\manager\manager_camera.h">
+      <Filter>ヘッダーファイル\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\manager\manager_base.h">
+      <Filter>ヘッダーファイル\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\precompile.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\input\input_keyboard.h">
+      <Filter>ヘッダーファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gpu\gpu_buffer.h">
+      <Filter>ヘッダーファイル\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gpu\gpu_command.h">
+      <Filter>ヘッダーファイル\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gpu\gpu_constant_buffer.h">
+      <Filter>ヘッダーファイル\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gpu\gpu_inputLayout.h">
+      <Filter>ヘッダーファイル\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gpu\gpu_shader.h">
+      <Filter>ヘッダーファイル\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gpu\gpu_texture.h">
+      <Filter>ヘッダーファイル\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gpu\gpu_vertex.h">
+      <Filter>ヘッダーファイル\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filter\filter.h">
+      <Filter>ヘッダーファイル\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filter\filter_glare.h">
+      <Filter>ヘッダーファイル\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filter\filter_tone_mapping.h">
+      <Filter>ヘッダーファイル\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\file\file_watcher.h">
+      <Filter>ヘッダーファイル\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\file\handle.h">
+      <Filter>ヘッダーファイル\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\draw\draw_functions.h">
+      <Filter>ヘッダーファイル\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\draw\primitive.h">
+      <Filter>ヘッダーファイル\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\assert.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\pointer.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\typedef.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\asset\asset_manager.h">
+      <Filter>ヘッダーファイル\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\asset\asset_model.h">
+      <Filter>ヘッダーファイル\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\asset\asset_base.h">
+      <Filter>ヘッダーファイル\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\asset\asset_model_fbx.h">
+      <Filter>ヘッダーファイル\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\asset\asset_model_manager.h">
+      <Filter>ヘッダーファイル\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\asset\asset_texture_manager.h">
+      <Filter>ヘッダーファイル\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\render\toon.h">
+      <Filter>ヘッダーファイル\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\render\shadow_map.h">
+      <Filter>ヘッダーファイル\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\render\ibl.h">
+      <Filter>ヘッダーファイル\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\object_base_model.h">
+      <Filter>ヘッダーファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\object_base.h">
+      <Filter>ヘッダーファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\camera\camera.h">
+      <Filter>ヘッダーファイル\object\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\camera\camera_fps.h">
+      <Filter>ヘッダーファイル\object\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\camera\camera_impl.h">
+      <Filter>ヘッダーファイル\object\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\camera\camera_tps.h">
+      <Filter>ヘッダーファイル\object\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\light\light_base.h">
+      <Filter>ヘッダーファイル\object\light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\light\light_directional.h">
+      <Filter>ヘッダーファイル\object\light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\light\light_point.h">
+      <Filter>ヘッダーファイル\object\light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\object\light\light_spot.h">
+      <Filter>ヘッダーファイル\object\light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenSource\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenSource\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenSource\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenSource\imgui\examples\imgui_impl_dx11.h">
+      <Filter>imgui\DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenSource\imgui\examples\imgui_impl_win32.h">
+      <Filter>imgui\DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenSource\OpenFBX\src\miniz.h">
+      <Filter>OpenFBX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenSource\OpenFBX\src\ofbx.h">
+      <Filter>OpenFBX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\collision\shape\shape_3D.h">
+      <Filter>ヘッダーファイル\collision\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\collision\shape\shape_base.h">
+      <Filter>ヘッダーファイル\collision\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\collision\shape\shape_2D.h">
+      <Filter>ヘッダーファイル\collision\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\collision\collision_3D.h">
+      <Filter>ヘッダーファイル\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\collision\collision.h">
+      <Filter>ヘッダーファイル\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\collision\collision_2D.h">
+      <Filter>ヘッダーファイル\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\system\system_render.h">
+      <Filter>ヘッダーファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\system\directX.h">
+      <Filter>ヘッダーファイル\system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ソースファイル">
+      <UniqueIdentifier>{1e07290d-c600-4419-a929-7b1fc9e6d8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\asset">
+      <UniqueIdentifier>{c4040fca-92e7-442f-9efb-afbe1be88195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\object">
+      <UniqueIdentifier>{422c821b-4564-48b3-8d29-efa6e6416d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\object\camera">
+      <UniqueIdentifier>{4c89afdd-7343-462d-82a3-be247c42a612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\object\light">
+      <UniqueIdentifier>{b4731b88-e216-435b-8c4f-1b5ed02bca3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\math">
+      <UniqueIdentifier>{75eedc99-bbe5-432e-8bdd-2b75117f4046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\file">
+      <UniqueIdentifier>{30a425b7-5c4c-4de3-9752-c8e4cfb3b3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\filter">
+      <UniqueIdentifier>{7bad973a-8258-42ed-8fd6-317c029ebd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\gpu">
+      <UniqueIdentifier>{384a56f7-760b-41a3-85c6-4a806694977f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{f9afe98a-5015-4e9c-9cff-4f88870570bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\draw">
+      <UniqueIdentifier>{e7224fe9-25e0-4f65-af82-f775e1de1795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\render">
+      <UniqueIdentifier>{3ff3b96c-41e8-46bb-a4bc-64d70675398a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\DirectX11">
+      <UniqueIdentifier>{a9d22383-956a-4534-8db0-640fca1fc5f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenFBX">
+      <UniqueIdentifier>{a05cadd3-cc40-4b4c-9cc9-cbfdb0abd839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\input">
+      <UniqueIdentifier>{6a031dc8-2604-423b-b3a4-b9129c119402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\model">
+      <UniqueIdentifier>{184516f5-7f6b-4799-9a3d-fa66cd0c7531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\manager">
+      <UniqueIdentifier>{ae6a3b17-6fc9-4079-a519-5e9ab2761719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル">
+      <UniqueIdentifier>{6f40d240-5871-4dc4-ab49-fb6f13979ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\scene">
+      <UniqueIdentifier>{c57a1c59-1b8c-4bbb-be06-d344ce406a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\model">
+      <UniqueIdentifier>{68483a2d-da8d-4d05-a7d3-05898f5c808f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\math">
+      <UniqueIdentifier>{a5a553af-64b4-44be-a577-16939d2a1a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\manager">
+      <UniqueIdentifier>{2cac60a0-1c55-413c-81b8-929557265f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\input">
+      <UniqueIdentifier>{7a1337df-3a9a-4882-ab8c-18d59b84e945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\gpu">
+      <UniqueIdentifier>{1ebd7160-a88b-4193-8917-857d92c8e058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\filter">
+      <UniqueIdentifier>{2e3293c1-7948-492c-8a83-aeead177212e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\file">
+      <UniqueIdentifier>{ecc63565-17d2-44e1-83f0-b0e098bdb3e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\draw">
+      <UniqueIdentifier>{7e6381c3-7c7b-4a90-90a5-034cccad5f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\common">
+      <UniqueIdentifier>{43c6388a-090e-486c-81fd-f5d633639976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\asset">
+      <UniqueIdentifier>{39af5623-1907-4667-b91d-b68fda13eea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\render">
+      <UniqueIdentifier>{65dfda11-5aa3-4a73-a725-d84016f7397f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\object">
+      <UniqueIdentifier>{11afa28d-4e9c-4811-b6f6-e82a1dc90974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\object\camera">
+      <UniqueIdentifier>{b6757d79-d5ee-4ce8-bb00-5eaa54b6747f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\object\light">
+      <UniqueIdentifier>{68d23f5f-a0de-43f9-9906-9d2f53bbba63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\collision">
+      <UniqueIdentifier>{2bd3228e-d0b5-4b44-8052-0996d8e4988d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\collision\shape">
+      <UniqueIdentifier>{ce506cb8-7b80-46d0-827e-5368e79daa43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\collision">
+      <UniqueIdentifier>{69adeeda-642a-451c-af34-bfe7752f5056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\collision\shape">
+      <UniqueIdentifier>{06d10244-a41a-4422-832b-2df58e7d6a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\system">
+      <UniqueIdentifier>{dfa3afbc-3515-470b-869a-609b9414084f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\system">
+      <UniqueIdentifier>{0c3b4cf9-05dd-4ee2-96eb-478b1003b985}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
