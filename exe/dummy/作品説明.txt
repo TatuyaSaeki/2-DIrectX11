@@ -1,10 +1,12 @@
+[実効ファイル]:
+2-DirectX11\exe\dummy\Application.exe
 
 [開発環境]:
 VisualStadio2017,19
 DirectX11
 C++
 
-作品説明:
+[作品説明]:
 2年生の時に作成しました。
  DirectX11、シェーダー、ImGuiを使用して、デモ作品を作りました。
   合計3つのシーンで構成されていて、シーンごとに表現していることが違います。
